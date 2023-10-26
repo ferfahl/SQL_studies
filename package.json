@@ -1,0 +1,28 @@
+{
+  "name": "sql_studies",
+  "version": "1.0.0",
+  "description": "Some studies of SQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferfahl/SQL_studies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferfahl/SQL_studies/issues"
+  },
+  "homepage": "https://github.com/ferfahl/SQL_studies#readme",
+  "dependencies": {
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.2",
+    "babel-preset-power-assert": "^3.0.0"
+  }
+}
